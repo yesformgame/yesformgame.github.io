@@ -50558,7 +50558,7 @@
         failed.renderable = !0),
         scoreGroup.add(fastestTime),
         totalTime && totalTime.destroy(),
-        (totalTime = game.add.bitmapText(960, game.halfHeight, "retina", msToTime(Date.now() - timer.firstStart), "66")).centerOffsetY = 265,
+        (totalTime = game.add.bitmapText(960, game.halfHeight, "retina", msToTime(timer.current), "66")).centerOffsetY = 265,
         totalTime.y += totalTime.centerOffsetY,
         totalTime.x -= totalTime.width / 2,
         scoreGroup.add(totalTime),
