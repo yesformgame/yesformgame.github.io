@@ -49599,8 +49599,8 @@
                 align: "left"
             },
             clock: {
-                font: "32px Graphik",
-                fill: "#000000",
+                font: "32px Arial",
+                fill: "#010101",
                 align: "center"
             },
             retina: {
