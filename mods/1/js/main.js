@@ -24624,11 +24624,8 @@
                 return .001 * (this.time - t)
             },
             reset: function() {
-                //this._started = this.time,
-                //this.removeAll()
-                var t = this.time;
-                this.time = Date.now(),
-                this.elapsedMS = this.time - t
+                this._started = this.time,
+                this.removeAll()
             }
         },
         Object.defineProperty(W.Time.prototype, "desiredFps", {
@@ -50555,7 +50552,7 @@
         fastestTime.y += fastestTime.centerOffsetY,
         fastestTime.x -= fastestTime.width / 2,
         congratulations.renderable = !0,
-        failed.renderable = !1) : ((fastestTime = game.add.image(735, game.halfHeight, "spritesheet", "score-page/incomplete.png")).centerOffsetY = 40,
+        failed.renderable = !1) : ((fastestTime = game.add.bitmapText(960, game.halfHeight, "retina", msToTime(timer.current), "66")).centerOffsetY = 40,
         fastestTime.y += fastestTime.centerOffsetY,
         congratulations.renderable = !1,
         failed.renderable = !0),
