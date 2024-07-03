@@ -49599,7 +49599,7 @@
                 align: "left"
             },
             clock: {
-                font: "32px Arial",
+                font: "32px Graphik",
                 fill: "#000000",
                 align: "center"
             },
