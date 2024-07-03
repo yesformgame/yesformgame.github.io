@@ -32926,7 +32926,7 @@
                 for (var t = "", e = [""], i = 0; i < this.layers[this.currentLayer].height; i++) {
                     for (var s = 0; s < this.layers[this.currentLayer].width; s++)
                         t += "%c  ",
-                        1 < this.layers[this.currentLayer].data[i][s] ? this.debugMap[this.layers[this.currentLayer].data[i][s]] ? e.push("background: " + this.debugMap[this.layers[this.currentLayer].data[i][s]]) : e.push("background: #000000") : e.push("background: rgb(255, 255, 255)");
+                        1 < this.layers[this.currentLayer].data[i][s] ? this.debugMap[this.layers[this.currentLayer].data[i][s]] ? e.push("background: " + this.debugMap[this.layers[this.currentLayer].data[i][s]]) : e.push("background: #ffffff") : e.push("background: rgb(0, 0, 0)");
                     t += "\n"
                 }
                 e[0] = t,
@@ -49600,7 +49600,7 @@
             },
             clock: {
                 font: "32px Arial",
-                fill: "#010101",
+                fill: "#000000",
                 align: "center"
             },
             retina: {
