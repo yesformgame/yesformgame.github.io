@@ -846,7 +846,7 @@
 	"yes-button/yes-button": ["yes-button/yes-button-00.png","yes-button/yes-button-02.png","yes-button/yes-button-03.png","yes-button/yes-button-04.png","yes-button/yes-button-05.png","yes-button/yes-button-06.png","yes-button/yes-button-08.png","yes-button/yes-button-09.png","yes-button/yes-button-10.png","yes-button/yes-button-11.png","yes-button/yes-button-12.png","yes-button/yes-button-13.png","yes-button/yes-button-15.png","yes-button/yes-button-20.png","yes-button/yes-button-21.png","yes-button/yes-button-22.png"]
 },
 "meta": {
-	"app": "https://www.codeandweb.com/texturepacker",
+	"app": "https://web.archive.org/web/20210927160515/https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
 	"image": "spritesheet-1.png",
 	"format": "RGBA8888",

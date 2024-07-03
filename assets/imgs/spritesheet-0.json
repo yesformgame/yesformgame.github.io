@@ -711,7 +711,7 @@
 	"yes-button/yes-button": ["yes-button/yes-button-01.png","yes-button/yes-button-07.png","yes-button/yes-button-14.png","yes-button/yes-button-16.png","yes-button/yes-button-17.png","yes-button/yes-button-18.png","yes-button/yes-button-19.png"]
 },
 "meta": {
-	"app": "https://www.codeandweb.com/texturepacker",
+	"app": "https://web.archive.org/web/20210927160520/https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
 	"image": "spritesheet-0.png",
 	"format": "RGBA8888",
