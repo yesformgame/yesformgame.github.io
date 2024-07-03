@@ -24624,8 +24624,11 @@
                 return .001 * (this.time - t)
             },
             reset: function() {
-                this._started = this.time,
-                this.removeAll()
+                //this._started = this.time,
+                //this.removeAll()
+                var t = this.time;
+                this.time = Date.now(),
+                this.elapsedMS = this.time - t
             }
         },
         Object.defineProperty(W.Time.prototype, "desiredFps", {
