@@ -1,0 +1,1 @@
+body{background:#fefefe;margin:0;padding:0}.container,.fill{width:100%;padding:0}.container{display:flex;position:relative;background:#333;color:#777;font-family:monospace}.container .info{top:0;right:0;color:#79b9ff;display:none}.container canvas{margin:auto}.fill{top:0;right:0;bottom:0;left:0;height:100%;margin:0}.container .info,.loading{position:absolute}

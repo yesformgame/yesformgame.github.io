@@ -1,0 +1,29 @@
+{
+  "name": "special-guest",
+  "description": "template for special guest phaser game",
+  "author": "noncvro",
+  "contributors": [
+    {
+      "name": "nc",
+      "email": "neilcline+specialguest@gmail.com"
+    }
+  ],
+  "version": "1.0.0",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-less": "^3.3.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-serve": "^1.4.0",
+    "gulp-sourcemaps": "^2.5.1",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "phaser": "^2.6.2",
+    "pump": "^1.0.2"
+  },
+  "devDependencies": {
+    "gulp-prepack": "0.0.2",
+    "gulp-wrap": "^0.13.0"
+  }
+}

@@ -1,0 +1,525 @@
+ {
+    "sprites": [
+       
+        {
+            "type": "image",
+            "key": "coin-grabbed",
+            "url": "assets/imgs/tiles/coin-grabbed.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "coin",
+            "url": "assets/imgs/tiles/coin.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "asterisk",
+            "url": "assets/imgs/enemies/asterisk.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "bang",
+            "url": "assets/imgs/enemies/bang.png",
+            "overwrite": false
+        },
+        
+         {
+            "type": "image",
+            "key": "roller",
+            "url": "assets/imgs/enemies/roller.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "background-color",
+            "url": "assets/imgs/tiles/background-color.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "bg-e6",
+            "url": "assets/imgs/tiles/bg-e6.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "checkbox1-text",
+            "url": "assets/imgs/background/checkbox1-text.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "level-image",
+            "url": "assets/imgs/background/level-image.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "level-image-dropdown",
+            "url": "assets/imgs/background/level-image-dropdown-open.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "banner",
+            "url": "assets/imgs/background/banner.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "player-piece",
+            "url": "assets/imgs/particles/player-piece.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "white-piece",
+            "url": "assets/imgs/particles/white-piece.png",
+            "overwrite": false
+        },
+
+
+        {
+            "type": "image",
+            "key": "nameLabel",
+            "url": "assets/imgs/labels/name.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "emailLabel",
+            "url": "assets/imgs/labels/email.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "passwordLabel",
+            "url": "assets/imgs/labels/password.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "passwordConfirmLabel",
+            "url": "assets/imgs/labels/confirm-password.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "addressLabel",
+            "url": "assets/imgs/labels/address.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "nameLabel",
+            "url": "assets/imgs/labels/name.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "stamp",
+            "url": "assets/imgs/tiles/stamp.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "strike",
+            "url": "assets/imgs/tiles/strike.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "full-field-green-outline",
+            "url": "assets/imgs/fields/full-field-green.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "full-field-red-outline",
+            "url": "assets/imgs/fields/full-field-red.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "half-field-green-outline",
+            "url": "assets/imgs/fields/half-field-green.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "half-field-red-outline",
+            "url": "assets/imgs/fields/half-field-red.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-down-flat",
+            "url": "assets/imgs/controls/pad-down-flat.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-left-flat",
+            "url": "assets/imgs/controls/pad-left-flat.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-right-flat",
+            "url": "assets/imgs/controls/pad-right-flat.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-up-flat",
+            "url": "assets/imgs/controls/pad-up-flat.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "pad-down-pressed",
+            "url": "assets/imgs/controls/pad-down-pressed.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-left-pressed",
+            "url": "assets/imgs/controls/pad-left-pressed.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-right-pressed",
+            "url": "assets/imgs/controls/pad-right-pressed.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-up-pressed",
+            "url": "assets/imgs/controls/pad-up-pressed.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "pad-restart",
+            "url": "assets/imgs/controls/pad-restart-flat.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-jump",
+            "url": "assets/imgs/controls/pad-up-flat.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "audio",
+            "key": "maxo",
+            "urls": ["assets/audio/sg-timeispend.mp3", "assets/audio/sg-timeispend.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "layer1",
+            "urls": [ "assets/audio/stems/layer1.mp3" ],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "layer2",
+            "urls": [ "assets/audio/stems/layer2.mp3" ],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "layer3",
+            "urls": [ "assets/audio/stems/layer3.mp3" ],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "layer4",
+            "urls": [ "assets/audio/stems/layer4.mp3" ],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "layer5",
+            "urls": [ "assets/audio/stems/layer5.mp3" ],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "layer6",
+            "urls": [ "assets/audio/stems/layer6.mp3" ],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "layer7",
+            "urls": [ "assets/audio/stems/layer7.mp3" ],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "jump",
+            "urls": ["assets/audio/nc-jump.mp3", "assets/audio/nc-jump.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "death",
+            "urls": ["assets/audio/nc-death.mp3", "assets/audio/nc-death.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "explosion",
+            "urls": ["assets/audio/nc-explosion.mp3", "assets/audio/nc-explosion.ogg"],
+            "autoDecode": true
+        },
+
+
+        {
+            "type": "audio",
+            "key": "type1",
+            "urls": ["assets/audio/typing/type1.mp3", "assets/audio/typing/type1.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type2",
+            "urls": ["assets/audio/typing/type2.mp3", "assets/audio/typing/type2.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type3",
+            "urls": ["assets/audio/typing/type3.mp3", "assets/audio/typing/type3.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type4",
+            "urls": ["assets/audio/typing/type4.mp3", "assets/audio/typing/type4.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type5",
+            "urls": ["assets/audio/typing/type5.mp3", "assets/audio/typing/type5.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type6",
+            "urls": ["assets/audio/typing/type6.mp3", "assets/audio/typing/type6.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type7",
+            "urls": ["assets/audio/typing/type7.mp3", "assets/audio/typing/type7.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type8",
+            "urls": ["assets/audio/typing/type8.mp3", "assets/audio/typing/type8.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type9",
+            "urls": ["assets/audio/typing/type9.mp3", "assets/audio/typing/type9.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type10",
+            "urls": ["assets/audio/typing/type10.mp3", "assets/audio/typing/type10.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type11",
+            "urls": ["assets/audio/typing/type11.mp3", "assets/audio/typing/type11.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type12",
+            "urls": ["assets/audio/typing/type12.mp3", "assets/audio/typing/type12.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type13",
+            "urls": ["assets/audio/typing/type13.mp3", "assets/audio/typing/type13.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type14",
+            "urls": ["assets/audio/typing/type14.mp3", "assets/audio/typing/type14.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type15",
+            "urls": ["assets/audio/typing/type15.mp3", "assets/audio/typing/type15.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type16",
+            "urls": ["assets/audio/typing/type16.mp3", "assets/audio/typing/type16.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type17",
+            "urls": ["assets/audio/typing/type17.mp3", "assets/audio/typing/type17.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type18",
+            "urls": ["assets/audio/typing/type18.mp3", "assets/audio/typing/type18.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type19",
+            "urls": ["assets/audio/typing/type19.mp3", "assets/audio/typing/type19.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type20",
+            "urls": ["assets/audio/typing/type20.mp3", "assets/audio/typing/type20.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "tone1",
+            "urls": ["assets/audio/typing/tone1.mp3", "assets/audio/typing/tone1.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "tone2",
+            "urls": ["assets/audio/typing/tone2.mp3", "assets/audio/typing/tone2.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "tone3",
+            "urls": ["assets/audio/typing/tone3.mp3", "assets/audio/typing/tone3.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "tone4",
+            "urls": ["assets/audio/typing/tone4.mp3", "assets/audio/typing/tone4.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "ding",
+            "urls": ["assets/audio/typing/DING.mp3", "assets/audio/typing/DING.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "return",
+            "urls": ["assets/audio/typing/return.mp3", "assets/audio/typing/return.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "suck-down",
+            "urls": ["assets/audio/suck-down.mp3", "assets/audio/suck-down.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "suck-up",
+            "urls": ["assets/audio/suck-up.mp3", "assets/audio/suck-up.ogg"],
+            "autoDecode": true
+        }
+
+    ]
+}

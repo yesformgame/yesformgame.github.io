@@ -1,0 +1,34 @@
+ {
+    "sprites": [
+       
+        {
+            "type": "image",
+            "key": "coin-grabbed",
+            "url": "assets/imgs/coin-grabbed.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "coin",
+            "url": "assets/imgs/coin.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "asterisk",
+            "url": "assets/imgs/asterisk.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "background-color",
+            "url": "assets/imgs/background-color.png",
+            "overwrite": false
+        }
+
+       
+    ]
+}

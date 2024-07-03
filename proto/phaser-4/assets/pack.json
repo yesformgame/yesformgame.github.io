@@ -1,0 +1,49 @@
+ {
+    "sprites": [
+       
+        {
+            "type": "image",
+            "key": "coin-grabbed",
+            "url": "assets/imgs/coin-grabbed.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "coin",
+            "url": "assets/imgs/coin.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "label",
+            "url": "assets/imgs/label.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "label-2",
+            "url": "assets/imgs/label-2.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "platform",
+            "url": "assets/imgs/platform.png",
+            "overwrite": false
+        }
+
+       
+    ],
+    "level2": [
+        {
+            "type": "image",
+            "key": "ball",
+            "url": "assets/sprites/shinyball.png",
+            "overwrite": false
+        }
+    ]
+}

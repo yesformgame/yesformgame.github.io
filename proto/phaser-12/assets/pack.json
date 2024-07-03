@@ -1,0 +1,215 @@
+ {
+    "sprites": [
+       
+        {
+            "type": "image",
+            "key": "coin-grabbed",
+            "url": "assets/imgs/tiles/coin-grabbed.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "coin",
+            "url": "assets/imgs/tiles/coin.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "asterisk",
+            "url": "assets/imgs/enemies/asterisk.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "background-color",
+            "url": "assets/imgs/tiles/background-color.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "bg-e6",
+            "url": "assets/imgs/tiles/bg-e6.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "level-image",
+            "url": "assets/imgs/level-image.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "banner",
+            "url": "assets/imgs/background/banner.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "nameLabel",
+            "url": "assets/imgs/labels/name.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "emailLabel",
+            "url": "assets/imgs/labels/email.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "passwordLabel",
+            "url": "assets/imgs/labels/password.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "passwordConfirmLabel",
+            "url": "assets/imgs/labels/confirm-password.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "addressLabel",
+            "url": "assets/imgs/labels/address.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "nameLabel",
+            "url": "assets/imgs/labels/name.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "nameLabel",
+            "url": "assets/imgs/labels/name.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "stamp",
+            "url": "assets/imgs/tiles/stamp.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "strike",
+            "url": "assets/imgs/tiles/strike.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "full-field-green-outline",
+            "url": "assets/imgs/fields/full-field-green.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "full-field-red-outline",
+            "url": "assets/imgs/fields/full-field-red.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "half-field-green-outline",
+            "url": "assets/imgs/fields/half-field-green.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "half-field-red-outline",
+            "url": "assets/imgs/fields/half-field-red.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-down-flat",
+            "url": "assets/imgs/controls/pad-down-flat.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-left-flat",
+            "url": "assets/imgs/controls/pad-left-flat.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-right-flat",
+            "url": "assets/imgs/controls/pad-right-flat.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-up-flat",
+            "url": "assets/imgs/controls/pad-up-flat.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "pad-down-pressed",
+            "url": "assets/imgs/controls/pad-down-pressed.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-left-pressed",
+            "url": "assets/imgs/controls/pad-left-pressed.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-right-pressed",
+            "url": "assets/imgs/controls/pad-right-pressed.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-up-pressed",
+            "url": "assets/imgs/controls/pad-up-pressed.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "pad-restart",
+            "url": "assets/imgs/controls/pad-restart-flat.png",
+            "overwrite": false
+        },
+        
+        {
+            "type": "image",
+            "key": "pad-jump",
+            "url": "assets/imgs/controls/pad-up-flat.png",
+            "overwrite": false
+        }
+
+    ]
+}
