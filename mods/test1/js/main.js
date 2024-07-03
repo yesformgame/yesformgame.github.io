@@ -50862,14 +50862,14 @@
         timer.start = timer.firstStart = Date.now(),
         timer.current = timer.now - timer.start,
         timer.background = game.add.graphics(),
-        timer.background.beginFill(16777215, 0),
+        //timer.background.beginFill(16777215, 0),
         timer.background.drawRect(125, 73, 160, 50),
         timer.background.init = {
             x: timer.background.x,
             y: timer.background.y
         },
         timer.background.fixedToCamera = !0,
-        timer.onScreen = game.add.bitmapText(137, 82, "vcr-white", msToTime(timer.now)),
+        timer.onScreen = game.add.bitmapText(137, 82, "vcr", msToTime(timer.now)),
         timer.onScreen.init = {
             x: timer.onScreen.x,
             y: timer.onScreen.y
