@@ -50947,8 +50947,7 @@
         }
     }
     function render() {
-        game.paused && stopTime || (timer.current = Date.now() - timer.start,
-        timer.onScreen.text = msToTime(timer.current))
+        timer.render()
     }
     var restart = function() {
         restarting || (window.onresize(),
