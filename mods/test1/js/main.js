@@ -15054,7 +15054,7 @@
                     this.device.webAudio && (i = "WebAudio",
                     s++),
                     this.device.chrome) {
-                        for (var n = ["%c %c %c Phaser CE v" + t + " | Pixi.js | " + e + " | " + i + "  %c %c %c http://phaser.io %c♥%c♥%c♥", "background: #fb8cb3", "background: #d44a52", "color: #000000; background: #871905;", "background: #d44a52", "background: #fb8cb3", "background: #000000"], r = 0; r < 3; r++)
+                        for (var n = ["%c %c %c Phaser CE v" + t + " | Pixi.js | " + e + " | " + i + "  %c %c %c http://phaser.io %c♥%c♥%c♥", "background: #fb8cb3", "background: #d44a52", "color: #ffffff; background: #871905;", "background: #d44a52", "background: #fb8cb3", "background: #ffffff"], r = 0; r < 3; r++)
                             r < s ? n.push("color: #ff2424; background: #fff") : n.push("color: #959595; background: #fff");
                         console.log.apply(console, n)
                     } else
@@ -32926,7 +32926,7 @@
                 for (var t = "", e = [""], i = 0; i < this.layers[this.currentLayer].height; i++) {
                     for (var s = 0; s < this.layers[this.currentLayer].width; s++)
                         t += "%c  ",
-                        1 < this.layers[this.currentLayer].data[i][s] ? this.debugMap[this.layers[this.currentLayer].data[i][s]] ? e.push("background: " + this.debugMap[this.layers[this.currentLayer].data[i][s]]) : e.push("background: #ffffff") : e.push("background: rgb(0, 0, 0)");
+                        1 < this.layers[this.currentLayer].data[i][s] ? this.debugMap[this.layers[this.currentLayer].data[i][s]] ? e.push("background: " + this.debugMap[this.layers[this.currentLayer].data[i][s]]) : e.push("background: #000000") : e.push("background: rgb(255, 255, 255)");
                     t += "\n"
                 }
                 e[0] = t,
