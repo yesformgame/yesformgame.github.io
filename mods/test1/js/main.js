@@ -15054,7 +15054,7 @@
                     this.device.webAudio && (i = "WebAudio",
                     s++),
                     this.device.chrome) {
-                        for (var n = ["%c %c %c Phaser CE v" + t + " | Pixi.js | " + e + " | " + i + "  %c %c %c http://phaser.io %c♥%c♥%c♥", "background: #fb8cb3", "background: #d44a52", "color: #ffffff; background: #871905;", "background: #d44a52", "background: #fb8cb3", "background: #ffffff"], r = 0; r < 3; r++)
+                        for (var n = ["%c %c %c Phaser CE v" + t + " | Pixi.js | " + e + " | " + i + "  %c %c %c http://phaser.io %c♥%c♥%c♥", "background: #fb8cb3", "background: #d44a52", "color: #000000; background: #871905;", "background: #d44a52", "background: #fb8cb3", "background: #000000"], r = 0; r < 3; r++)
                             r < s ? n.push("color: #ff2424; background: #fff") : n.push("color: #959595; background: #fff");
                         console.log.apply(console, n)
                     } else
