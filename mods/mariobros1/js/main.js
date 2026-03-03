@@ -47929,28 +47929,48 @@
             jumpButton.isDown = !1,
             restartBtn.isDown = !1;
             for (var r = 0; r < game.input.pointers.length; r++) {
-                player.justRestarted && (player.justRestarted = !1,
-                game.physics.arcade.isPaused = !1,
-                areas[player.currentLocation].onActive());
-                var o = game.input.pointers[r];
-                o.active && game.physics.arcade.distanceToXY(cursors.down.cameraOffset, o.x, o.y) < touchControlPadding || cursors.down.isDown ? (cursors.down.isDown = !0,
-                cursors.down.wasPressed = !0,
-                cursors.down.loadTexture("spritesheet", "controls/control-down-pressed.png")) : cursors.down.wasPressed && (cursors.down.loadTexture("spritesheet", "controls/control-down.png"),
-                cursors.down.wasPressed = !1),
-                o.active && game.physics.arcade.distanceToXY(cursors.right.cameraOffset, o.x, o.y) < touchControlPadding || cursors.right.isDown ? (cursors.right.isDown = !0,
-                cursors.right.wasPressed = !0,
-                cursors.right.loadTexture("spritesheet", "controls/control-right-pressed.png")) : cursors.right.wasPressed && (cursors.right.loadTexture("spritesheet", "controls/control-right.png"),
-                cursors.right.wasPressed = !1),
-                o.active && game.physics.arcade.distanceToXY(cursors.left.cameraOffset, o.x, o.y) < touchControlPadding || cursors.left.isDown ? (cursors.left.isDown = !0,
-                cursors.left.wasPressed = !0,
-                cursors.left.loadTexture("spritesheet", "controls/control-left-pressed.png")) : cursors.left.wasPressed && (cursors.left.loadTexture("spritesheet", "controls/control-left.png"),
-                cursors.left.wasPressed = !1),
-                o.active && game.physics.arcade.distanceToXY(jumpButton.cameraOffset, o.x, o.y) < touchControlPadding || jumpButton.isDown ? (jumpButton.isDown = !0,
-                jumpButton.wasPressed = !0,
-                jumpButton.loadTexture("spritesheet", "controls/control-up-pressed.png")) : jumpButton.wasPressed && (jumpButton.loadTexture("spritesheet", "controls/control-up.png"),
-                jumpButton.wasPressed = !1),
-                (o.active && game.physics.arcade.distanceToXY(restartBtn.cameraOffset, o.x, o.y) < touchControlPadding || restartBtn.isDown) && (restartBtn.isDown = !0)
-            }
+				if (player.justRestarted) {
+					player.justRestarted = false;
+					game.physics.arcade.isPaused = false;
+					areas[player.currentLocation].onActive();
+				}
+
+				var o = game.input.pointers[r];
+				if (!o.active) continue;
+
+				// DOWN
+				if (game.physics.arcade.distanceToXY(cursors.down.cameraOffset, o.x, o.y) < touchControlPadding) {
+					cursors.down.isDown = true;
+					cursors.down.wasPressed = true;
+					cursors.down.loadTexture("spritesheet", "controls/control-down-pressed.png");
+				}
+
+				// RIGHT
+				if (game.physics.arcade.distanceToXY(cursors.right.cameraOffset, o.x, o.y) < touchControlPadding) {
+					cursors.right.isDown = true;
+					cursors.right.wasPressed = true;
+					cursors.right.loadTexture("spritesheet", "controls/control-right-pressed.png");
+				}
+
+				// LEFT
+				if (game.physics.arcade.distanceToXY(cursors.left.cameraOffset, o.x, o.y) < touchControlPadding) {
+					cursors.left.isDown = true;
+					cursors.left.wasPressed = true;
+					cursors.left.loadTexture("spritesheet", "controls/control-left-pressed.png");
+				}
+
+				// JUMP
+				if (game.physics.arcade.distanceToXY(jumpButton.cameraOffset, o.x, o.y) < touchControlPadding) {
+					jumpButton.isDown = true;
+					jumpButton.wasPressed = true;
+					jumpButton.loadTexture("spritesheet", "controls/control-up-pressed.png");
+				}
+
+				// RESTART
+				if (game.physics.arcade.distanceToXY(restartBtn.cameraOffset, o.x, o.y) < touchControlPadding) {
+					restartBtn.isDown = true;
+				}
+			}
         }
         player.isDead || controlOverride || stopTime || (controlPageGroup && (controlPageGroup.visible && cursors.left.isDown || cursors.right.isDown || cursors.down.isDown || jumpButton.isDown) && (controlPageGroup.visible = !1),
         player.body.onFloor() || "jumping" == player.body.state || player.justRestarted || (cursors.left.isDown ? player.animations.play("jump-left") : player.animations.play("jump-right"),
@@ -48827,7 +48847,8 @@
             e.alpha = 1
         })
     }, handleTriggers = function(e, t) {
-		if (t[0].value === "finish" && finished == false) {
+		console.log(finished)
+		if (t[0].value === "finish" && !finished) {
 			finished = true,
 			endGame()
 		}
@@ -49652,7 +49673,6 @@
             timer.start = Date.now(),
             resetPlayer(),
             areas[player.currentLocation].onActive(),
-			finished = false,
             resetCoins(),
             resetEffects(),
             interactivesRenderable(!0),
@@ -49662,6 +49682,7 @@
             game.input.enabled = !0,
             restarting = !1
         }, 150))
+		finished = false //fix
     }
       , gameComplete = function() {
         game.completed = true,
@@ -49669,10 +49690,12 @@
         thankYouButton.alpha = 1
     }
       , endGame = function() {
+		if (!finished) return
         controlOverride = !0,
         finalAnimation()
     }
       , finalAnimation = function() {
+		if (!finished) return
 		console.log("1")
         player.animations.play("right"),
         setTimeout(function() {
