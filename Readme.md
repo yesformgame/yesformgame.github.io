@@ -1,3 +1,11 @@
+This is an unofficial repository for the yes.com/game source code.
+
+Original code all belongs to [Neil Cline](https://neilcline.online/).
+
+You can find an easier to mod version in /mods/modBase that strips down the original js file and removes some images to make it less hard coded and compatible with the newer version of Tiled.
+
+Original Readme text below.
+
 # Yes! Game Technical Documentation 
 
 This game is a web-based video game build with [Phaser](https://phaser.io/).
