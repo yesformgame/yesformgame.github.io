@@ -71,24 +71,6 @@
          "objects":[
                 {
                  "gid":9,
-                 "height":40,
-                 "id":7588,
-                 "name":"finish",
-                 "properties":[
-                        {
-                         "name":"field",
-                         "type":"string",
-                         "value":"finish"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":360,
-                 "y":120
-                }, 
-                {
-                 "gid":9,
                  "height":48,
                  "id":7793,
                  "name":"finish",
@@ -281,29 +263,6 @@
                 {
                  "gid":12,
                  "height":40,
-                 "id":1,
-                 "name":"warp down",
-                 "properties":[
-                        {
-                         "name":"warpX",
-                         "type":"float",
-                         "value":1000
-                        }, 
-                        {
-                         "name":"warpY",
-                         "type":"float",
-                         "value":1000
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":440,
-                 "y":120
-                }, 
-                {
-                 "gid":12,
-                 "height":40,
                  "id":7788,
                  "name":"warp down",
                  "properties":[
@@ -391,30 +350,7 @@
          "draworder":"topdown",
          "id":20,
          "name":"Warp Up",
-         "objects":[
-                {
-                 "gid":12,
-                 "height":40,
-                 "id":196,
-                 "name":"warp up",
-                 "properties":[
-                        {
-                         "name":"warpX",
-                         "type":"float",
-                         "value":-280
-                        }, 
-                        {
-                         "name":"warpY",
-                         "type":"float",
-                         "value":200
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":520,
-                 "y":120
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -427,18 +363,6 @@
          "id":12,
          "name":"Coins",
          "objects":[
-                {
-                 "gid":1,
-                 "height":40,
-                 "id":1375,
-                 "name":"coin",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":120,
-                 "y":120
-                }, 
                 {
                  "gid":1,
                  "height":40,
@@ -678,29 +602,6 @@
          "id":13,
          "name":"Rollers",
          "objects":[
-                {
-                 "gid":2,
-                 "height":40,
-                 "id":3931,
-                 "name":"roller",
-                 "properties":[
-                        {
-                         "name":"rollX",
-                         "type":"float",
-                         "value":0
-                        }, 
-                        {
-                         "name":"speed",
-                         "type":"float",
-                         "value":1000
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":680,
-                 "y":120
-                }, 
                 {
                  "gid":2,
                  "height":40,
@@ -1083,34 +984,6 @@
                 {
                  "gid":7,
                  "height":40,
-                 "id":3937,
-                 "name":"bang",
-                 "properties":[
-                        {
-                         "name":"slideX",
-                         "type":"float",
-                         "value":0
-                        }, 
-                        {
-                         "name":"slideY",
-                         "type":"float",
-                         "value":0
-                        }, 
-                        {
-                         "name":"time",
-                         "type":"float",
-                         "value":250
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":600,
-                 "y":120
-                }, 
-                {
-                 "gid":7,
-                 "height":40,
                  "id":7848,
                  "name":"bang",
                  "properties":[
@@ -1147,18 +1020,6 @@
          "id":15,
          "name":"Asterisks",
          "objects":[
-                {
-                 "gid":6,
-                 "height":40,
-                 "id":3548,
-                 "name":"asterisk",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":200,
-                 "y":120
-                }, 
                 {
                  "gid":6,
                  "height":40,
@@ -1301,43 +1162,7 @@
          "draworder":"topdown",
          "id":19,
          "name":"Vacuums",
-         "objects":[
-                {
-                 "gid":12,
-                 "height":40,
-                 "id":91,
-                 "name":"vacuum",
-                 "properties":[
-                        {
-                         "name":"speed",
-                         "type":"float",
-                         "value":300
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":280,
-                 "y":120
-                }, 
-                {
-                 "gid":12,
-                 "height":40,
-                 "id":7785,
-                 "name":"vacuum",
-                 "properties":[
-                        {
-                         "name":"speed",
-                         "type":"float",
-                         "value":300
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":280,
-                 "y":120
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
